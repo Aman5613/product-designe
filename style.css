@@ -1,0 +1,216 @@
+@font-face {
+    font-family: GeneralSans;
+    src: url(fonts/GeneralSans-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: GeneralSans;
+    scrollbar-width: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#customcrsr{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    
+    background-color: #fff;
+}
+#page-1{
+    width: 100%;
+    height: 100%;
+    padding: 5vh 2.8vw;
+    padding-bottom: 0vw;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    overflow-y: hidden;
+}
+.menu{
+    font-size: 1.2vw;
+}
+#main{
+    text-transform: uppercase;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    overflow: hidden;
+}
+#main h3{
+    font-size: 10vw;
+    line-height: 0.9;
+    font-weight: 300;
+    opacity: 0.6;
+}
+#main span{
+    display: block;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    gap: 20px;
+}
+
+#main #tor{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10.4vw;
+    text-align: right;
+}
+#main #tor #h6{
+
+display: inline-block;
+font-size: 1.2vw;
+font-weight: 500;
+}
+.foot{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 6vh;
+    font-weight: 400;
+    font-size: 2.4vh;
+}
+.available div{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.5vw;
+    font-weight: 300;
+    opacity: 0.93;
+}
+.foot .arrow i{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 2.5vh;
+    margin: .1vw;
+    padding: 5px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+#page-2{
+    width: 100vw;
+    padding: 0vh 2.8vw;
+    padding-top: 30vh;
+    padding-right: 11vw;
+}
+.elem{
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid #888;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7vh 1vh;
+    padding-right: 0;
+}
+.elem img{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    object-fit: cover;
+    pointer-events: none;
+    border: 2px solid black;
+    opacity: 0;
+    position: absolute  ;
+}
+.elem .transparent{
+    width: 200px;
+    height: 240px;
+    background-color: cadetblue;
+    position: absolute;
+    z-index: 2;
+}
+.elem h3{
+    font-size: 7vw;
+    opacity: 0.65;
+    font-weight: 700;
+}.elem h6{
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+.lastelem{
+    border-bottom: 1px solid #888;
+}
+#page-2 button{
+    padding: 5px 30px;
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid #cfcfcf;
+    margin: 80px;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 0;
+}
+#page-2 button sup{
+    opacity: 0.7;
+}
+#page-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32vw;
+    gap: 5vw;
+    padding-right: 10vw;
+    line-height: 1.5;
+}
+#page-3 img{
+    width: 30vh;
+    height: 30vh;
+}
+#page-3 .about h4{
+    text-transform: uppercase;
+    color: #888;
+}
+#page-3 .about p{
+    font-size: 1.4vw;
+}
+#page-3 .about button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 17px;
+
+}
+#page-4{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+#page-4 .time{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#page-4 .connection{
+    display: flex;
+    gap: 9vh;
+}
